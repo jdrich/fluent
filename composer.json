@@ -11,8 +11,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Fluent": "src/Fluent"
+        "psr-0": {
+            "Fluent": "src/"
         }
     }
 }
