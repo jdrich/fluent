@@ -11,8 +11,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Fluent": "Fluent/"
+        "psr-4": {
+            "Fluent\\": "/Fluent"
         }
     }
 }
