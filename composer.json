@@ -1,0 +1,18 @@
+{
+    "name": "jdrich/fluent",
+    "description": "A fluent interface adapter for classes with non-fluent interfaces.",
+    "homepage": "https://github.com/jdrich/fluent",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Rich",
+            "email": "jdrich@gmail.com",
+            "homepage": "http://jonathanri.ch"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Fluent": "src/Fluent"
+        }
+    }
+}
