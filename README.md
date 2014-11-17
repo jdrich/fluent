@@ -3,9 +3,9 @@ Fluent
 
 A very simple class for wrapping non-fluent objects in fluent interfaces to clean up code.
 
-*Usage*
+**Usage**
 
-Without `Fluent/Adapter`:
+Without `Fluent\Adapter`:
 
     $object = new SomeClass();
 
@@ -17,7 +17,7 @@ Without `Fluent/Adapter`:
 
     return $object->print();
 
-With `Fluent/Adapter`:
+With `Fluent\Adapter`:
 
     return (new Fluent\Adapter(new SomeClass(), ['print']))
         ->oscillate()
